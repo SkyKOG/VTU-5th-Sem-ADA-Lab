@@ -55,10 +55,10 @@ void kruskal(int n)
 {
 	int i,j,k,u,v,mincost,res1,res2,sum=0;
 
-	for(k=1;k<n;k++)
+	for(k=1;k<=n;k++)
 	{
 		mincost=999;
-		for(i=1;i<n-1;i++)
+		for(i=1;i<=n-1;i++)
 		{
 			for(j=1;j<=n;j++)
 			{
